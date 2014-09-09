@@ -1,0 +1,144 @@
+@charset "gb2312";
+html,body,div,table,th,td,p,ul,li,aa,dl,dt,dd{ font-family:Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; padding: 0px; margin:0px; color:#787878}
+body{ text-align:center}
+div{ overflow:hidden}
+a{ text-decoration:none; outline:none; }
+table,th,td{ border-collapse:collapse; border-spacing:0px; vertical-align:top}
+ul,li{ list-style-type:none; background-repeat:no-repeat}
+#container{ margin:0px auto;width:964px; text-align:left}
+a:link{ color:#787878}/*常规，非访问超链接*/
+a:visited{ color:#787878}/*访问超链接*/
+a:hover { color:#333333; text-decoration: none}/*访问者操作鼠标通过时的链接 */
+a:active{ color:#990000; text-decoration:underline}/*点击链接*/
+img{ border:none}
+
+/*分页样式*/
+#Divpage{width:290px; margin:0 auto; text-align:center; padding-left:10px; padding-top:18px;}
+#Divpage li{ float:left; width:auto; padding:2px;}
+#Divpage li a { color:#333; font-size:12px; }
+#Divpage li a:visited { color:#333; font-size:12px; }
+#Divpage li a:hover { color:#0079b8; font-size:12px; }
+
+
+
+
+
+/*sidebar类别*/
+.proLi{ width:160px; line-height:30px; border-bottom:#CCCCCC solid 1px; display:block; background:url(../images/li.jpg) no-repeat 30px 50%; padding-left:50px; margin-left:32px;}
+
+a.nav{ width:100px; text-align:center; display:block; float:left; color:#FFFFFF; line-height:30px;}
+
+
+
+#footer{
+padding-top:10px;
+}
+
+#footer p{
+line-height:40px;
+text-align:center;
+
+}
+
+#nav{
+margin-left:20px;
+}
+
+#nav li{
+width:113px;
+float:left;
+background:url(../images/nav_04.jpg) no-repeat left 0px;
+height:41px;
+}
+
+#nav li.e{
+background:url(../images/nav_e.jpg) no-repeat left 0px;
+}
+
+#nav li a{
+line-height:41px;
+color:#fff;
+font-size:14px;
+margin-left:40px;
+}
+
+#index_lxwm{
+margin-left:20px;
+}
+
+#index_lxwm p{
+line-height:25px;
+}
+
+#index_gsjj{
+margin:5px 10px;
+}
+
+#index_gsjj p{
+line-height:25px;
+}
+
+
+#index_news{
+margin-left:8px;
+}
+
+#index_news li{
+background:url(../images/hs.jpg) no-repeat 0px 7px;;
+line-height:25px;
+}
+
+#neiye_lxwm{
+margin-left:25px;
+}
+
+#neiye_lxwm p{
+line-height:25px;
+}
+
+#neiye_news{
+margin-left:15px;
+}
+
+#neiye_news li{
+background:url(../images/hs.jpg) no-repeat 0px 7px;;
+line-height:25px;
+}
+
+#head2{
+margin-left:30px;
+}
+
+#head2 li{
+	border-bottom:2px #666 solid;
+	width:190px;
+	height:20px;
+	line-height:20px;
+	background:url(../images/gg.jpg) no-repeat 0px 3px;
+}
+
+#head2 li a{
+color:#000;
+font-weight:bold;
+}
+#neiye_text{
+line-height:25px;
+}
+
+#index_pics{
+height:160px;
+margin-left:10px;
+}
+
+#index_pics .picgg {
+height:160px;
+width:150px;
+margin-right:8px;
+float:left;
+
+}
+
+#index_pics .picgg p{
+text-align:center;
+line-height:20px;
+}
